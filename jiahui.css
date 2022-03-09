@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    font-family: 'Roboto Condensed',sans-serif;
+    background: #ffffff;
+}
+/*
+ * .top-nav 
+ */
+.top-nav{
+    background: #ffffff;
+    padding: 2em;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+nav {
+    margin:0;
+    text-align: center;
+}
+
+nav > li{
+    display: inline-block;
+}
+
+nav li a{
+    color: #080808;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-family: 'Overlock',cursive;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #008B8B;
+    background: #fffccf;
+    /* -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-ms-transform: scale(0.8); */
+}
+
+.welcome{
+    position: fixed;
+    top: 20px;
+}
+
+/*
+ * Home
+ */
+#Home, #About, #Project{
+    padding-left: 40px;
+}
+
+
+#Home{
+    /* position: relative; */
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    /* top: 100px; */
+    /* display: inline-block; */
+}
+
+#Home p{
+    display: inline;
+}
+#Home p.sayhello{
+    font-size: 40px;
+    font-family: monospace;
+
+}
+#Home p.name{
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#Home p.equal{
+    font-family: serif;
+    font-size: 35px;
+}
+
+#Home .jiahui{
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#Home p.pic{
+    /* vertical-align: middle; */
+    margin-top: cm;
+}
+
+/*
+ * About
+ */
+#About{
+    /* position: relative; */
+    /* top: 190px; */
+    padding: 0px;
+}
+
+#About ul, ol, li{
+    list-style: none;
+}
+
+#About a{
+    text-decoration: none;
+}
+
+
+
+#Project{
+    padding: 0px;
+    margin: 0px;
+}
+#Project .third_title{
+    text-align: center;
+}
+#Project .container{
+    width: 800px;
+    /* background: #ccc; */
+    margin: 20px auto;
+    display: flex;
+    display: -webkit-flex;
+    /* flex-direction: row; */
+    /* align-content: space-between; */
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#Project .test{
+    flex: 1;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#Contact {
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+#Contact .main-group{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+}
+#Contact .left-group{
+
+}
+
+#Contact .right-group{
+
+}
+
+.final-place{
+    margin: 50px;
+}
