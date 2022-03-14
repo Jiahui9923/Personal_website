@@ -1,0 +1,9 @@
+1.About_Me()
+
+1. Hi, I'm an undergraduate at Portland State University majoring in computer science. I'm an exchange student, so I've only been in Portland two years. I consider myself a keen swimmer and a "food explorer". I often go swimming on weekends or when I have free time and sometimes I swim outdoors. I often travel to different places and taste different food during my holidays. I spent most of my trip looking for different kinds of food. Therefore, I love being a food explorer to taste the food from all over the world.
+
+
+
+///////////////////
+
+1.大家好，我是一名波特兰州立大学的本科生，专业是计算机。我是一名交换生，因此，我来到波特兰才两年。我认为我是是个游泳爱好者以及"美食探险家"。我经常会在周末或者有时间的时候去游泳偶尔也会在户外游泳。我在放假的时候经常去不同的地方去旅游并且品尝不同的美食。我的旅行大的部分时间都是在找各种各样的美食。因此，我喜欢作为一名美食探险家来品尝世界各地的美食。

@@ -140,10 +140,62 @@ nav li a:hover{
     font-size: 20px;
 }
 
-#About .about_context{
-    padding-left: 40px;
-    font-size: 20px;
+#About .text .intro{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
+#About .total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(image/code.png);
+    /* background-size: cover; */
+    background-size: 50%;
+    background-position: center;
+
+    border-radius: 3%;
+    width: 80%;
+    height: 80%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#About .total .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
+      0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+      0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    transition: 0.5s ease;
+}
+
+#About .text:hover{
+    box-shadow: 0 0.7px 1px rgba(0, 0, 0, 0.157),
+    0 1.7px 2.6px rgba(0, 0, 0, 0.224), 0 3.5px 5.3px rgba(0, 0, 0, 0.28),
+    0 7.3px 11px rgba(0, 0, 0, 0.346), 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+#About .text .intro{
+
+    margin: 5% 5% 5% 5%;
+    font-family: 'Overlock', math, Times;
+    /* padding-left: 0.375em; */
+    /* background-color: white; */
+    font-size: 20px;
+    /* font-family: Lato, sans-serif; */
+    font-weight: 300;
+    /* letter-spacing: 0.75em; */
+    color: white;
+
+    @media (max-width: 640px) {
+      /* font-size: 2em; */
+    }
 }
 
 
@@ -220,6 +272,34 @@ nav li a:hover{
     margin-bottom: 10px;
     margin-top: 3px;
 }
+.about_context .textdiv #div1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.about_context .textdiv #div2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.about_context .textdiv #div3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.about_context .button_1{
+    background-color: #03a9f3;
+    border: 0;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
 
 .about_context .hidden{
     display: none;
@@ -236,6 +316,7 @@ nav li a:hover{
 }
 #Contact .Contact_title{
     padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 #Contact .main-group{
@@ -251,10 +332,13 @@ nav li a:hover{
 #Contact .info{
 
 }
+#Contact .info .whole_chart{
+    margin-top: 50px;
+}
 #Contact .map_icon{
     width: 5%;
     height: 5%;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 5px;
     margin-right: 10px;
 }
@@ -274,31 +358,44 @@ nav li a:hover{
 }
 
 
-
+#Contact .follow_us_part{
+    margin-top: 30px;
+}
 #Contact .icon{
     /* width: 20px; */
     /* border-style: groove; */
     /* display: inline; */
     padding-left: 30px;
+    /* text-decoration: none; */
+    /* padding-right: ; */
+    border-radius: 50%;
 }
 #Contact .icon .github_icon{
     /* border-style: dotted; */
     width: 30px;
+    margin-right: 50px;
     /* padding-left: 30px; */
 }
 #Contact .icon .github_icon:hover{
     background-color:gray;
+    border-radius: 50%;
 }
 #Contact .icon .facebook_icon{
     /* border-style: dashed; */
     width: 30px;
+    margin-right: 50px;
     /* padding-left: 30px; */
 }
 #Contact .icon .facebook_icon:hover{
     background-color:gray;
+    border-radius: 50%;
 }
-#Contact .icon .wechat_icon{
+#Contact .icon .ins_icon{
     width:30px;
+}
+#Contact .icon .ins_icon:hover{
+    background-color:gray;
+    border-radius: 25%;
 }
 
 
@@ -325,21 +422,16 @@ nav li a:hover{
     /* background-color: aquamarine; */
     margin-top: 5px;
     margin-bottom: 10px;
+    padding-left: 10px;
     border-radius: 4px;
 
-    border: 1px solid #f7f6f5;
+    /* border: 1px solid #f7f6f5; */
     padding-top: 10px;
-    background-color: #f7f6f5;
+    /* background-color: #f7f6f5; */
     font-size: 15px;
     font-weight: 500;
+    width: 100%;
 }
-/* #Contact .message .comment{
-    margin-top: 20px;
-} */
-/* #Contact .message .butt{
-    margin-top: 15px;
-    font-size: 20;
-} */
 
 
 #Contact .row .sub{

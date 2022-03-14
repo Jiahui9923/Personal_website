@@ -55,9 +55,30 @@
     <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
     
     <section id="About">
-      <div class="top_tittle">
-        <h2>this.About_Me()</h2>
+      <div class="title">
+        <div class="top_tittle">
+          <h2>this.About_Me()</h2>
+        </div>
+        <div class="total">
+          <div class="text"> 
+            <div class="intro">
+              <p>
+                Hi, I'm an undergraduate at Portland State University majoring in computer science. 
+                And also, I'm an exchange student, so I've only been in Portland two years. 
+                I consider myself a keen swimmer and a "food explorer". 
+                I often go swimming on weekends or when I have free time 
+                and sometimes I swim outdoors. I often travel to different places 
+                and taste different food during my holidays. 
+                I spent most of my trip looking for different kinds of food. 
+                Therefore, I love being a food explorer to taste the food from all over the world.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+
 
     </section>
 
@@ -85,26 +106,43 @@
               There are three databases for professors, students and administrators. 
               In addition, integrate all book content and design a new index to help students search better.
             </p>
-            <a href="https://github.com/Jiahui9923/individual_project/blob/18aa1097e6751bb096eb8269ea3fd8aa450384d4/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1.doc">
-              Books_Management_System</a>
+            
+            <a class="link" href="https://github.com/Jiahui9923/individual_project/blob/18aa1097e6751bb096eb8269ea3fd8aa450384d4/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1.doc">
+              <button class="button_1">
+                Learn more
+              </button>  
+            </a>
+
           </div>
           <div id="div1" class="hidden">
             <p> Snake Game</p>
+            <p>
+              Snake game is completed by using Python, 
+              a project jointly completed by me and my classmates. 
+              The one I designed was the snake variable. 
+              This includes designing variables such as length, 
+              speed and how to control the snake.
+            </p>
+            <a class="link" href="https://github.com/Jiahui9923/individual_project/blob/18aa1097e6751bb096eb8269ea3fd8aa450384d4/%E8%B4%AA%E5%90%83%E8%9B%87.py">
+              <button class="button_1">
+                Learn more
+              </button>  
+            </a>
           </div>
           <div id="div2" class="hidden">
             <p>Preven Chocolate Addiction Software</p>
             <p>
-              y project is mainly to design the library management system, not responsible for the implementation of specific codes. 
-            The main content is to update and improve the efficiency of the school library management system. 
-            The main applications are for students and teachers. The system is not public. 
-            The des
+              I was mainly responsible for designing the connection between database 
+              and program as well as the display interface of the software. 
+              The main use is C++.
             </p>
           </div>
           <div id="div3" class="hidden">
             <p>ACM Contest</p>
             <p>
-              y projeeeeelications are for students and teachers. The system is not public. 
-            The des
+              I have participated in individual ACM competition, 
+              but unfortunately I have not been able to obtain any ranking.
+              I prefer to study some algorithms and enjoy the process of solving problems.
             </p>
           </div>
       </div>
@@ -174,10 +212,10 @@
                   
                 </p>
               </div>
-              <Address>
+              <Address class="whole_chart">
                 <img class="map_icon" src="image/map.svg" alt="map">
-                 222 SW Harrsion St. 97201, Portland
-                <br>
+                  222 SW Harrsion St. 97201, Portland
+                 <br>
                 <img class="phone_icon" src="image/phone.svg" alt="phone">
                 <a href="sms:5103146132">+1 (510)314-xxxx</a>
                 <br>
@@ -185,23 +223,25 @@
                 <a href="mailto:jiahui@pdx.edu">jiahui@pdx.edu</a>
               </Address>
             </div>
-            <div>
-              <p>Plase folow us by:</p>
-            </div>
-            <div class="icon">
-              <a href="https://github.com/">
-                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
-                <img class="github_icon" src="image/github.svg" alt="github">
-              </a>
-              <a href="https://github.com/">
-                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
-                <img class="facebook_icon" src="image/facebook.svg" alt="github">
-              </a>
-              <a href="https://github.com/">
-                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
-                <img class="wechat_icon" src="image/instagram.svg" alt="github">
-              </a>
-
+            <div class="follow_us_part">
+              <div class="follow_us">
+                <p>Plase folow us by:</p>
+              </div>
+              <div class="icon">
+                <a style="text-decoration: none;" href="https://github.com/">
+                  <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                  <img class="github_icon" src="image/github.svg" alt="github">
+                </a>
+                <a style="text-decoration: none;" href="https://github.com/">
+                  <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                  <img class="facebook_icon" src="image/facebook.svg" alt="facebook">
+                </a>
+                <a href="https://github.com/">
+                  <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                  <img class="ins_icon" src="image/instagram.svg" alt="ins">
+                </a>
+  
+              </div>
             </div>
             <!-- <div class="icon-group">
               <ul>
@@ -250,12 +290,12 @@
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Title">
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" id="message" name="message" rows="10" placeholder="Comment" required="">
-                                </textarea>
+                                <textarea class="form_Control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                               </div>
-                              <button type="submit" class="sub"> Submit </button>
-                              <button type="reset" class="res"> Reset </button>
+                              <button type="submit" class="sub" id="submit"> Submit </button>
+                              <button type="reset" class="res" id="reset"> Reset </button>
                               <div id="form-messages"></div>
+
                           </form>
                       </div>
                   </div>
@@ -272,12 +312,16 @@
 
     </div>
 
+    <script src="js/project.js">
+
+    </script>
     
   </body>
 
-  <script type="text/javascript">
+
+  <!-- <script type="text/javascript">
     new Action({});
-  </script>
+  </script> -->
   
 
 </html>
