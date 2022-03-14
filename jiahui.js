@@ -31,3 +31,8 @@ function showDiv(str) {
 	}
 	document.getElementById(str).style.display = "block";               
 }
+
+
+function reset123(){
+	alert("Reset successfully!");
+}

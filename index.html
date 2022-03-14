@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jiahui - Resume</title>
 
-    <!-- <script src="js/contact.js"></script> -->
     <link rel="stylesheet" href="jiahui.css" />
     <link rel="stylesheet" href="jiahui.js">
     <link
@@ -22,6 +21,7 @@
       <nav>
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
+        <li><a href="#Skill">Skill</a></li>
         <li><a href="#Project">Project</a></li>
         <li><a href="#Contact">Contact</a></li>
       </nav>
@@ -72,6 +72,14 @@
                 I spent most of my trip looking for different kinds of food. 
                 Therefore, I love being a food explorer to taste the food from all over the world.
               </p>
+              <p>
+                As a computer student, 
+                I am now more interested in NLP and artificial intelligence. 
+                I didn't have any experience, 
+                but I tried to use a lot of models to help me deepen my understanding of NLP and AI.
+                 If you are also interested in this aspect, 
+                please leave a message to tell me oh.
+              </p>
             </div>
           </div>
         </div>
@@ -79,6 +87,38 @@
       </div>
 
 
+
+    </section>
+
+    <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
+
+    <section id="Skill">
+      <div class="skill_title">
+        <h2>this.My_Skil()</h2>
+      </div>
+      <div class="skil_de">
+        <div class="cpp">
+          <p class="title"> .cpp: </p>
+          <p class="number">100% </p>
+          <p> I have done three projects,
+             and C and C++ were my first 
+             exposure to computer 
+             languages. Therefore, 
+             I have been learning C++ until now and trying to learn more about the use of C++ in different ways.</p>
+        </div>
+        <div class="java">
+          <p class="title"> .Java: </p>
+          <p class="number">70% </p>
+          <p>I've used Java in previous course projects 
+            so I only have a partial grasp of it.</p>
+        </div>
+        <div class="python_last">
+          <p class="python_title"> .Py: </p>
+          <p class="number">30% </p>
+          <p> New language for me. During this study, I learned new knowledge points such as NLP and AI. Therefore, I tried to learn Python 
+            and realized part of NLP model through Python.</div>
+
+      </div>
 
     </section>
 
@@ -293,9 +333,11 @@
                                 <textarea class="form_Control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                               </div>
                               <button type="submit" class="sub" id="submit"> Submit </button>
-                              <button type="reset" class="res" id="reset"> Reset </button>
+                              <button onclick="reset123()" type="reset" class="res" id="reset"> Reset </button>
                               <div id="form-messages"></div>
+                              <script src="jiahui.js">
 
+                              </script>
                           </form>
                       </div>
                   </div>
@@ -309,12 +351,7 @@
 
     <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
     <div class="final-place">
-
     </div>
-
-    <script src="js/project.js">
-
-    </script>
     
   </body>
 

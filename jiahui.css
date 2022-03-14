@@ -306,10 +306,57 @@ nav li a:hover{
 }
 
 /*
- *
+ * Skill
+ */
+#Skill{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+#Skill .skil_de{
+    margin-left: 30px;
+}
+#Skill .skil_de .cpp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+#Skill .skil_de .cpp .title{
+    font-size: 25px;
+    margin-right: 10px;
+}
+#Skill .skil_de .java{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+#Skill .skil_de .java .title{
+    font-size: 25px;
+    margin-right: 10px;
+}
+#Skill .skil_de .python_last{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+#Skill .skil_de .python_last .python_title{
+    font-size: 25px;
+    margin-right: 10px;
+}
+#Skill .number{
+    margin-right: 10px;
+}
+
+
+/*
+ * Contact
  */
 #Contact {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 40px;
     font-size: 20px;
