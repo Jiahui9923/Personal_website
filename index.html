@@ -9,6 +9,10 @@
     <!-- <script src="js/contact.js"></script> -->
     <link rel="stylesheet" href="jiahui.css" />
     <link rel="stylesheet" href="jiahui.js">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  />
   </head>
   <body>
     <div class="top-nav">
@@ -25,41 +29,88 @@
 
     <!-- temp_line -->
     <section id="Home">
-      <p class="sayhello"> Welcome to my site! Who Am I?</p>
-      <br> 
-      <p class="name"> Name </p>
-      <p class="equal"> == </p>
-      <p class="jiahui"> Jiahui </p>
-      <br>
-      <p class="name"> Undergraduate </p>
-      <p class="equal"> @ </p>
-      <p class="jiahui"> PSU </p>
-      <br>
+      <div class="Grid_Home">
+        <div class="sayhello">
+          <!-- <p class="font">Printf("Who Am I")</p> -->
+          <h2>Printf("Who Am I")</h2>
+        </div>
+        <div class="picture">
+          <img src="image/myslef.jpg" 
+                alt="Remeber this is a selfie"
+                width="100%"
+                height="100%"
+          >
+        </div>
+        <div class="name">
+          <div class="context">
+            <p> this.name == Jiahui;</p>
+            <p> this.major == Computer Science;</p>
+            <p> return ("Learn more about me");</p>
+          </div>
+        </div>
+      </div>
 
     </section>
 
     <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
     
     <section id="About">
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-      <ol></ol>
-      <div>
-        <a href="javascript:;">&lt;</a>
-        <a href="javascript:;">&gt;</a>
+      <div class="top_tittle">
+        <h2>this.About_Me()</h2>
       </div>
-  
+
     </section>
 
     <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
     
     <section id="Project">
-      <h2 class="third_title">My Project</h2>
-      <div class="container">
-        <!-- Grid -->
+      <div class="project_title">
+        <h2>this.My_Project()</h2>
+      </div>
+      <div  class="about_context">
+        <script src="jiahui.js"></script>
+        <div>
+          <span onclick="showDiv('div0');">BookManagementSystem.cpp</span>
+          <span onclick="showDiv('div1');">Snakegame.py</span>
+          <span onclick="showDiv('div2');">Prevent chocolate addiction software.pdf</span>
+          <span onclick="showDiv('div3');">ACM contest</span>
+      </div>
+      <div class="textdiv">
+          <div id="div0">
+            <p> Book Management System</p>
+            <p> My project is mainly to design the library management system, not responsible for the implementation of specific codes. 
+              The main content is to update and improve the efficiency of the school library management system. 
+              The main applications are for students and teachers. The system is not public. 
+              The design content is the reclassification of the book and the update of the database. 
+              There are three databases for professors, students and administrators. 
+              In addition, integrate all book content and design a new index to help students search better.
+            </p>
+            <a href="https://github.com/Jiahui9923/individual_project/blob/18aa1097e6751bb096eb8269ea3fd8aa450384d4/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1.doc">
+              Books_Management_System</a>
+          </div>
+          <div id="div1" class="hidden">
+            <p> Snake Game</p>
+          </div>
+          <div id="div2" class="hidden">
+            <p>Preven Chocolate Addiction Software</p>
+            <p>
+              y project is mainly to design the library management system, not responsible for the implementation of specific codes. 
+            The main content is to update and improve the efficiency of the school library management system. 
+            The main applications are for students and teachers. The system is not public. 
+            The des
+            </p>
+          </div>
+          <div id="div3" class="hidden">
+            <p>ACM Contest</p>
+            <p>
+              y projeeeeelications are for students and teachers. The system is not public. 
+            The des
+            </p>
+          </div>
+      </div>
+      
+      </div>
+      <!-- <div class="container">
         <div class="test">
           <p>
             Books Management System
@@ -98,79 +149,7 @@
               Books_Management_System</a>
           </p>
         </div>
-      </div>
-
-      <!-- <div class="container">
-        <section id="testim" class="testim">
-                 <div class="testim-cover">
-                    <div class="wrap">
-        
-                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-
-                        <div id="testim-content" class="cont">
-                            
-                            <div class="active">
-                                <div class="img"><img src="images/pic.png" alt=""></div>
-                                <h2>Books Management System</h2>
-                                <p>My project is mainly to design the library management system, not responsible for the implementation of specific codes. 
-                                  The main content is to update and improve the efficiency of the school library management system. 
-                                  The main applications are for students and teachers. The system is not public. 
-                                  The design content is the reclassification of the book and the update of the database. 
-                                  There are three databases for professors, students and administrators. 
-                                  In addition, integrate all book content and design a new index to help students search better.
-
-                                <a href="https://github.com/Jiahui9923/individual_project/blob/18aa1097e6751bb096eb8269ea3fd8aa450384d4/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1.doc">
-                                  Books_Management_System</a>
-                                </p>
-                            </div>
-        
-                            <div>
-                                <div class="img"><img src="images/pic2.png" alt=""></div>
-                                <h2>Snake game</h2>
-                                <p>Snake game is completed by using Python, a project jointly completed by me and my classmates. 
-                                  The one I designed was the snake variable. 
-                                  This includes designing variables such as length, speed and how to control the snake.
-                                  
-                                </p>    
-              
-                            </div>
-        
-                            <div>
-                                <div class="img"><img src="images/pic3.png" alt=""></div>
-                                <h2>Design software to prevent chocolate addiction.</h2>
-                                <p>
-                                  I was mainly responsible for designing the connection between database 
-                                  and program as well as the display interface of the software. 
-                                  The main use is C++.
-                                  
-                                </p>   
-               
-                            </div>
-        
-                            <div>
-                                <div class="img"><img src="images/pic5.png" alt=""></div>
-                                <h2>ACM contest </h2>
-                                <p>I have participated in individual ACM competition, 
-                                  but unfortunately I have not been able to obtain any ranking.
-                                  I prefer to study some algorithms and enjoy the process of solving problems.</p>                    
-                            </div>
-        
-                            <div>
-                                <div class="img"><img src="images/pic4.png" alt=""></div>
-                                <h2>Lanqiaobei Competitive programming</h2>
-                                <p>
-                                  In 2019, I was honored to participate in the contest in Jilin Province of China 
-                                  and win the second prize in the algorithm contest.
-                                </p>                    
-                            </div>
-        
-                        </div>
-        
-                    </div>
-                 </div>
-            </section>
-        </div> --> -->
+      </div> -->
 
         <script src="js/project.js"></script>
       
@@ -181,10 +160,50 @@
     <div style="margin: 30px 8px 20px 6px;border-top:1px dotted #C0C0C0;"></div>
     
     <section id="Contact">
-      <h3 class="title">Contact With Me!</h3>
+      <div class="Contact_title">
+        <h2>this.Conact_Me(Jiahui)</h2>
+      </div>
       <div class="main-group">
           <div class="left-group">
-            <div class="icon-group">
+            <div class="basic">
+              <p>Printf("Contact Us && Follow Us")</p>
+            </div>
+            <div class="info">
+              <div>
+                <p>
+                  
+                </p>
+              </div>
+              <Address>
+                <img class="map_icon" src="image/map.svg" alt="map">
+                 222 SW Harrsion St. 97201, Portland
+                <br>
+                <img class="phone_icon" src="image/phone.svg" alt="phone">
+                <a href="sms:5103146132">+1 (510)314-xxxx</a>
+                <br>
+                <img class="email_icon" src="image/email.svg" alt="email">
+                <a href="mailto:jiahui@pdx.edu">jiahui@pdx.edu</a>
+              </Address>
+            </div>
+            <div>
+              <p>Plase folow us by:</p>
+            </div>
+            <div class="icon">
+              <a href="https://github.com/">
+                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                <img class="github_icon" src="image/github.svg" alt="github">
+              </a>
+              <a href="https://github.com/">
+                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                <img class="facebook_icon" src="image/facebook.svg" alt="github">
+              </a>
+              <a href="https://github.com/">
+                <!-- <iframe src="image/github.svg" frameborder="0"></iframe> -->
+                <img class="wechat_icon" src="image/instagram.svg" alt="github">
+              </a>
+
+            </div>
+            <!-- <div class="icon-group">
               <ul>
                 <li>
                   <img src="images/address.png" class="icon" alt="">
@@ -205,66 +224,46 @@
                   </p>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
           <div class="right-group">
-            <h3 class="title">Leave me messages!</h3>
-            <form action="#" class="form">
-              <div class="form-group">
-                <div class="input-group w50">
-                  <input type="text" name="name" required>
-                  <span>Name</span>
-                </div>
-                <div class="input-group w50">
-                  <input type="text" name="age" required>
-                  <span>Age</span>
-                </div>
-                <div class="input-group w50">
-                  <input type="text" name="email" required>
-                  <span>Email</span>
-                </div>
-                <div class="input-group w50">
-                  <input type="text" name="phone" required>
-                  <span>Phone</span>
-                </div>
-                <div class="input-group w100">
-                  <textarea name="data" required></textarea>
-                  <span>Plese leave messages!</span>
-                </div>
-                <div class="input-group w100">
-                  <button type="submit">Submit</button>
-                </div>
+            <div class="title_contact">
+              <p>
+                Printf("Leave me a messages!")
+              </p>
+            </div>
+            <div class="message">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                      <div class="contact-box text-center">
+                          <form id="ajax-contact" action="contact.php" method="post">
+                              <div class="form-group row">
+                                  <div class="col-lg-6">
+                                    <input type="text" class="form-control" id="name" name="name"placeholder="Name" required="">
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Title">
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" id="message" name="message" rows="10" placeholder="Comment" required="">
+                                </textarea>
+                              </div>
+                              <button type="submit" class="sub"> Submit </button>
+                              <button type="reset" class="res"> Reset </button>
+                              <div id="form-messages"></div>
+                          </form>
+                      </div>
+                  </div>
               </div>
-            </form>
-
-
-
+              </form>
+            </div>
           </div>
-
-        </div>
-        
-        <!-- end container -->
-
-          <!-- <div class="min-group">
-            <h3 class="title">Leave me messages!</h3>
-            <span>Name </span>
-            <input type="text" name="name" required>
-            <br>
-            <span>Email</span>
-            <input type="text" name="email" required>
-            <br>
-            <span>Please Leave Messages!</span>
-            <br>
-            <textarea name="data" required></textarea>
-            <br>
-
-            <input type="" class="btn btn-primary" value="Submit"/>
-            <input type="reset" class="btn btn-secondary" value="Reset"/>
-
-
-          </div> -->
       </div>
-
 
     </section>
 
